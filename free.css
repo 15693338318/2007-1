@@ -1,0 +1,109 @@
+*{margin: 0;padding: 0;}
+#app{
+	width: 1140px;
+	height: 234px;
+}
+.wrapper::after{
+	content: '\20';
+	clear: both;
+	display: block;
+}
+.cSteps{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cSteps ul{
+	font-size: 0;
+	width: 1010px;
+	margin: 50px 0 30px;
+	list-style: none;
+	padding: 0;
+}
+.cSteps li .on{
+	background-position: 0 0;
+}
+.cSteps li{
+	width: 196px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	margin-right: 6px;
+	background: url(./public/img/card/index/customsteps.png) no-repeat;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+}
+.cSteps li .cur{
+	background-position: 0 -30px;
+}
+.cSteps li .last{
+	background-position: 0 -90px;
+	margin: 0;
+}
+.status01{
+	border-top: 1px solid #eaeaea;
+	padding-top: 30px;
+}
+.status01 .lt-tips{
+	float: left;
+	width: 770px;
+}
+.status01 .lt-tips h2{
+	color: #ff9d00;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+}
+.status01 .lt-tips h2 i{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background: url(../public/img/free/customsteps.png) -170px -184px no-repeat;
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-top: -5px;
+	font-style: italic;
+}
+.status01 .lt-tips p{
+	font-size: 14px;
+	color: #333;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.status01 .lt-tips p a{
+	color: #ff9d00;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: pointer;
+}
+.status01 .btn{
+	float: right;
+	margin-top: 40px;
+}
+.status01 .btn a{
+	display: block;
+	border: 1px solid #ffa411;
+	font-size: 16px;
+	color: #ff9d00;
+	width: 146px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: pointer;
+}
+.clearfix::after{
+	content: '';
+	clear: both;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
