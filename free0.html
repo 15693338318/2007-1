@@ -1,0 +1,109 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="free0.css">
+		<link rel="stylesheet" href="css/comm.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="app" class="wrapper">
+				<div class="order-cont">
+					<div class="order-lt">
+						<div class="tabs-label">
+							<h3>定制旅行</h3>
+							<p id="customizenature class="clearfix">
+								<span class="on">个人定制</span>
+								<span class>企业定制</span>
+							</p>
+						</div>
+						<div class="f-stage clearfix pl-0 pb-5">
+							<h2><i>1</i>出游基本信息</h2>
+							<div class="form-sec">
+								<input type="text" id="from"  placeholder="请填写出发地">
+							</div>
+							<div class="form-sec mt-3 " id="select-mdd">
+								<div class="mdd-tags clearfix py-2 ">日本</div>
+							</div>
+							<div class="form-sec date form-sec-focus mt-3">
+								<label for="">出行日期</label>
+								<input type="text" placeholder="出行日期" class="hasDatepicker">
+							</div>
+							<div class="form-sec date form-sec-focus mt-3">
+								<label for="">返程日期</label>
+								<input id="back_date" type="text" placeholder="返程日期" class="hasDatepicker">
+							</div>
+						</div>
+						<div class="f-stage clearfix pl-0 pb-5">
+							<h2><i>2</i>出行人数及预算</h2>
+							<div class="form-sec form-sec-focus">
+								<label for="">成人</label>
+								<input id="adult_num" type="text" maxlength="4" class="bord-red">&nbsp;&nbsp;
+								<span class="unit">位</span>
+							</div>
+							<div class="form-sec form-sec-focus">
+								<label for="">儿童</label>
+								<input id="kid_num" type="text" maxlength="4" class="bord-red">&nbsp;&nbsp;
+								<span class="unit">位</span>
+							</div>
+							<div class="form-sec">
+								<label for="">人均预算（&nbsp;&nbsp;选填&nbsp;&nbsp;）</label>
+								<input id="budget" type="text" placeholder="人均预算" class="bord-red">&nbsp;&nbsp;
+								<span class="unit">元</span>
+							</div>
+						</div>
+						<div class="f-stage clearfix pl-0 pb-5">
+							<h2><i>3</i>特色定制
+							    <span style="color:rgb(204,204,204);">(选填)</span>
+							</h2>
+							<div class="specItems">
+								<dl>
+									<dt>备注</dt>
+									<div class="remark-wraper">
+										<textarea name id="remark" maxlength="100" placeholder="选填，如：希望定制师何时联系您，对航班、酒店、景点的具体要求，出行方式的偏好（包车出行、租车自驾、公共交通）等等..."></textarea>
+										<div class="remark-length">
+											<span class="num">0</span>/
+											<span>100</span>
+										</div>
+									</div>
+								</dl>
+							</div>
+						</div>
+						<div class="f-atage clearfix pb-5">
+							<h2><i id="contact_serial">4</i>联系人信息</h2>
+							<div class="form-sec">
+								<label for="">姓名</label>
+								<input id="user_name" type="text" placeholder="请填写您的姓名" class="bord-red">
+							</div>
+							<div class="form-sec form-sec-focus">
+								<label for="">手机号码</label>
+								<input id="user_phone" type="text" placeholder="请填写您的手机号码" class="bord-red">
+							</div>
+						</div>
+					</div>
+					<div class="cussteps">
+						<a id="show-whatspop" class="whats" href=""></a>
+						<div class="steps">
+						    <div class="hd">定制流程</div>
+						    <ul>
+							    <li>提交需求</li>
+							    <li>等待联系</li>
+							    <li>设计行程</li>
+							    <li>确认付款</li>
+							    <li>省心出行</li>
+						    </ul>
+						</div>
+					</div>
+					<div class="sub-order">
+						<div id="submit" class="btn-order">提交需求</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
