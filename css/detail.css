@@ -1,0 +1,762 @@
+*{margin: 0;padding: 0;}
+.container{
+	width: 980px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	/* border: 1px solid #CCC; */
+}
+.giftcard-buy-up{
+	width: 100%;
+	height: 1153px;
+	margin-bottom: 30px;
+	/* border:1px solid #CCC; */
+}
+.giftcard-buy-down{
+	width: 100%;
+	margin-bottom: 30px;
+	/* border:1px solid #CCC; */
+}
+.giftcard-preview{
+	width: 390px;
+	height: 460px;
+	float: left;
+	/* border:1px solid #CCC; */
+}
+.giftcard-productInfo{
+	width: 550px;
+	height: 715px;
+	float: right;
+	/* border:1px solid #CCC; */
+}
+.giftcard-preview .imgs img{
+	width: 380px;
+	height: 380px;
+	display: block;
+	vertical-align: top;
+}
+.giftcard-preview .thumbs .current{
+	width: 58px;
+	height: 58px;
+	border: 1px solid #1d74e6;
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+.giftcard-productInfo-hd{
+	position: relative;
+	width: 100%;
+	height: 71px;
+	padding: 0 94px 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.giftcard-productInfo-hd .txt-blue{
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	top: -4px;
+	right: 0;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: right;
+	
+}
+.giftcard-productInfo-hd .title{
+	width: 476px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000;
+	font-weight: bold;
+	margin: -5px 0 10px;
+}
+.giftcard-productInfo-hd .type{
+	display: inline-block;
+	width: 110px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #999;
+	vertical-align: top;
+}
+.giftcard-productInfo-hd .cm-tag-list{
+	display: inline-block;
+	width: 136px;
+	height: 20px;
+	vertical-align: top;
+	
+}
+.cm-tag-list span{
+	float: left;
+	width: 58px;
+	height: 20px;
+	color: #3983E5;
+	border:1px solid #3983E5;
+	line-height: 20px;
+	padding: 0 4px;
+	margin-right: 10px;
+}
+.cm-tag-border-blue{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	border-radius: 2px;
+}
+.giftcard-welfare{
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	padding: 15px 110px 15px 20px;
+	background-color: #fafafa;
+	cursor: pointer;
+}
+.giftcard-welfare .title em{
+	font-size: 14px;
+	color: #999;
+	margin-left: 5px;
+	font-style: normal;
+}
+.giftcard-welfare .txt-grayer{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 1.5;
+	text-decoration: none;
+	color: #999;
+}
+.icon-arrow{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 1;
+	margin-top: -11px;
+	margin-right: -12px;
+}
+.giftsexchange{
+	width: 530px;
+	height: 86px;
+	margin-right: -90px;
+	padding: 10px 100px;
+	border-bottom: 2px dotted #d7d7d7;
+}
+.giftsexchange .hd{
+	width: 79px;
+	height: 34px;
+	float: left;
+	margin-left: -100px;
+	font-size: 14px;
+	line-height: 34px;
+	color: #9a6e43;
+}
+.giftsexchange .icon-giftsexchange{
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-top: 8px;
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #9A6E43;
+	text-align: center;
+	border: 1px solid #9A6E43;
+	border-radius: 50%;
+}
+.giftsexchange .list{
+	width: 330px;
+	height: 54px;
+}
+.giftsexchange .list>li{
+	width: 330px;
+	height: 64px;
+	list-style: none;
+	position: relative;
+	min-height: 54px;
+	padding-right: 35%;
+	margin: 0;padding: 0;
+}
+.giftsexchange .cm-fl{
+	width: 215px;
+	height: 64px;
+	cursor: pointer;
+}
+.giftsexchange .cm-fl .name{
+	width: 215px;
+	height: 34px;
+	line-height: 34px;
+	margin: 0;padding: 0;
+}
+.giftsexchange .cm-tag-list{
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+.giftsexchange .cm-tag-list .cm-tag-border-orange{
+	display: inline-block;
+	max-width: 194px;
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: left;
+	color: #FF7D13;
+	vertical-align: top;
+	margin-right: 10px;
+	padding: 0 4px;
+	font-size: 12px;
+	border: 1px solid #FF7D13;
+	border-radius: 2px;
+}
+.giftsexchange .ellipsis-one{
+	width: 165px;
+	height: 34px;
+	display: inline-block;
+	vertical-align: top;
+	color: #000;
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.giftsexchange .cm-fl .icon-arrow{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	position: relative;
+	top: auto;
+	right: auto;
+    margin-top: -1px;
+	vertical-align: top;
+	margin-left: -5px;
+}
+.giftsexchange .cm-fr{
+	width: 116px;
+	height: 64px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+}
+.vertical-center{
+	width: 100%;
+	margin-right: -6px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.giftsexchange .txt-grayer{
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	margin-right: 6px;
+	line-height: 36px;
+	vertical-align: top;
+	color: #999;
+	text-decoration: line-through;
+}
+.cm-fr .txt-grayer dfn{
+	font-family: Arial;
+	margin-right: 1px;
+	font-style: normal;
+}
+.cm-fr .txt-orange{
+	width: 24px;
+	height: 34px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 34px;
+	color: #FF7D13;
+	margin-top: 15px;
+}
+.giftcard-welfare .txt-orange dfn{
+	width: 8px;
+	height: 16px;
+	margin: 0 4px 0 0;
+	font-size: 14px;
+	font-family: Arial;
+	font-style: normal;
+}
+.giftcard-value-list{
+	width: 100%;
+	height: 80px;
+	padding-top: 10px;
+}
+.giftcard-value-list li{
+	width: 100%;
+	height: 70px;
+	position: relative;
+	padding: 10px 0 10px 84px;
+	list-style: none;
+}
+.giftcard-value-list .giftcard-value-hd{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 28px;
+	margin-top: -14px;
+	line-height: 28px;
+}
+.giftcard-value-hd .title{
+	width: 64px;
+	height: 28px;
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+}
+.other-value-list{
+	width: 486px;
+	height: 50px;
+	zoom: 1;
+	position: relative;
+	z-index: 3;
+}
+.other-value-list .label-box{
+	width: 192px;
+	height: 50px;
+	float: left;
+	position: relative;
+	margin-right: 12px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #FF7D13;
+	border-radius: 2px;
+	background-color: #fff;
+}
+.other-value-list .money{
+	width: 119px;
+	height: 21px;
+	font-size: 16px;
+	line-height: 48px;
+	color: #FF7D13;
+}
+.other-value-list .label-box .icon-selected{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-position: -60px -30px;
+}
+.icon{
+	display: inline-block;
+	vertical-align: top;
+	background: url(../public/img/card/index/icon-sprites-taoka.png) no-repeat;
+}
+.giftcard-value{
+	width: 100%;
+	height: 335px;
+	position: relative;
+	z-index: 3;
+}
+.giftcard-value-hd{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+}
+.giftcard-value-hd .title{
+	width: 112px;
+	height: 55px;
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+}
+#constantsWrapper{
+	width: 100%;
+	height: 280px;
+	background-color: #fafafa;
+}
+.other-value-list{
+	width: 100%;
+	height: 80px;
+	padding: 20px 0 10px 20px;
+}
+.other-value-list .custom-label-box{
+	width: 500px;
+	height: 50px;
+	float: left;
+	position: relative;
+	padding: 0 119px 0 32px;
+	cursor: default;
+	user-select: none;
+	margin-right: 12px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+}
+.other-value-list .custom-label-box dfn{
+	width: 8px;
+	height: 16px;
+	position: absolute;
+	top: 16px;
+	left: 20px;
+	font-size: 14px;
+	color: #999;
+	font-style: normal;
+}
+.other-value-list .custom-label-box input{
+	width: 347px;
+	height: 48px;
+	font-size: 16px;
+	line-height: 48px;
+	border: 0;
+	background-color: transparent;
+	font-family: inherit;
+}
+.other-value-list .custom-label-box .btn{
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	border-radius: 0 2px 2px 0;
+	font-size: 16px;
+	line-height: 50px;
+	color: #fff;
+	cursor:  not-allowed;
+	background: #ccc !important;
+	filter: none;
+}
+.giftcard-value-form-list{
+	width: 100%;
+	height: 200px;
+}
+.giftcard-value-form-list li{
+	width: 570px;
+	height: 50px;
+	list-style: none;
+	position: relative;
+	padding: 0 20px 2px;
+}
+.giftcard-value-form-list li .dotted-line{
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	left: 20px;
+	border-top: 2px dotted #d7d7d7;
+}
+.giftcard-value-form-list .money{
+	width: 348px;
+	height: 34px;
+	margin-top: 7px;
+	float: left;
+}
+.giftcard-value-form-list .txt-orange{
+	width: 47px;
+	height: 34px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 34px;
+	color: #FF7D13;
+}
+.giftcard-value-form-list .txt-orange dfn{
+	width: 8px;
+	height: 16px;
+	margin: 0 4px 0 0;
+	font-size: 14px;
+	font-style: normal;
+}
+.giftcard-value-form-list .cm-amount-box{
+	width: 122px;
+	height: 28px;
+	margin-top: 10px;
+	float: left;
+	position: relative;
+	padding: 0 28px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	user-select: none;
+}
+.cm-amount-box .cm-icon-minus{
+	width: 28px;
+	height: 28px;
+	line-height:20px ;
+	font-size: 25px;
+	font-weight: bold;
+	color: #3983ef;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	border: 1px solid #3983ef;
+	background-color: #fff;
+	text-align: center;
+}
+.cm-amount-box input{
+	width: 42px;
+	height: 26px;
+	margin-right: 24px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000;
+	text-align: center;
+	border: 0;
+	background-color: transparent;
+	font-family: inherit;
+}
+.cm-amount-box .cm-icon-plus{
+	width: 28px;
+	height: 28px;
+	line-height: 23px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3983ef;
+	position: absolute;
+	top: -1px;
+	right: 0;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #3983ef;
+	background-color: #fff;
+}
+.cm-amount-box .unit{
+	width: 14px;
+	height: 28px;
+	position: absolute;
+	top: -1px;
+	right: 38px;
+	line-height: 28px;
+	color: #000;
+}
+.icon-checkbox{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background-position: -90px -40px;
+}
+.message-tips{
+	width: 100%;
+	height: 26px;
+	text-align: center;
+	padding: 2px 9px;
+	font-size: 12px;
+	color: #333;
+	border: 1px solid #f2d468;
+	background-color: #fffcf1;
+	position: relative;
+	line-height: 20px;
+}
+.message-tips .txt-orange{
+	margin: 0 4px;
+	color: #ff7d13;
+	font-style: normal;
+}
+.giftcard-order-details{
+	width: 100%;
+	height: 96px;
+	padding: 15px 20px;
+	background-color: #fafafa;
+	margin-top: 20px;
+}
+.giftcard-order-details li{
+	width: 530px;
+	height: 26px;
+	position: relative;
+	font-size: 16px;
+	line-height: 26px;
+	color: #666;
+	list-style: none;
+}
+.giftcard-order-details .ellipsis-one{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.giftcard-order-details .text-right{
+	width: 212px;
+	height: 26px;
+	float: right;
+	letter-spacing: 1px;
+	text-align: right;
+    margin-right: 25px;
+	
+}
+.giftcard-order-details dfn{
+	width: 10px;
+	height: 26px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1px 4px -1px 0;
+	font-family: arial;
+	font-style: normal;
+}
+.giftcard-order-details em{
+	padding: 0 5px;
+	font-style: normal;
+}
+.giftcard-order-details .total{
+	width: 530px;
+	height: 34px;
+	padding: 6px 0 0;
+	font-size: 24px;
+	line-height: 34px;
+	color: #FF7111;
+}
+.btn-orange-gradient{
+	width: 186px;
+	height: 44px;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 30px;
+	color: #fff;
+	background: -webkit-linear-gradient(top,#ff7f13,#ff7111);
+}
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+.giftcard-buy-down .giftcard-buy-aside{
+	width: 240px;
+	height: 1220px;
+	float: left;
+	border: 1px solid #ededed;
+}
+.giftcard-hot-sale{
+	width: 238px;
+	height: 1218px;
+	overflow: hidden;
+}
+.giftcard-buy-hd{
+	width: 238px;
+	height: 59px;
+	padding: 0 29px;
+	font-size: 16px;
+	line-height: 59px;
+	color: #666;
+	background-color: #f5f5f5;
+}
+.giftcard-buy-aside .giftcard-product-list{
+	width: 238px;
+	height: 1159px;
+	padding: 20px 0 79px;
+	overflow: hidden;
+	margin: 0;
+}
+.giftcard-buy-aside .giftcard-product-list li{
+	width: 238px;
+	height: 208px;
+	padding: 0 24px;
+	float: left;
+	list-style: none;
+}
+.giftcard-buy-aside .giftcard-product-list .module{
+	display: block;
+	width: 190px;
+	height: 193px;
+	position: relative;
+	margin: 30px 0 15px;
+}
+a{
+	text-decoration: none;
+	color: #0066cc;
+	font-size: 12px;
+	cursor: pointer;
+}
+.giftcard-product-list .pic{
+	width: 190px;
+	height: 123px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.giftcard-product-list img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+	vertical-align: top;
+}
+.giftcard-buy-aside .giftcard-product-list .hd{
+	width: 190px;
+	height: 70px;
+	padding-bottom: 13px;
+	overflow: hidden;
+	padding: 12px 10px 3px;
+	text-align: center;
+}
+.giftcard-product-list .hd .title01{
+	max-width: 170px;
+	color: #000;
+}
+.giftcard-product-list .hd .title{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 1.5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.giftcard-product-list .hd .txt-orange{
+	font-size: 16px;
+	line-height: 1.5;
+	color: #FF7D13;
+}
+.giftcard-product-list .black-opacity60{
+	display: none;
+	filter: none !important;
+	position: absolute;
+	left: 50%;
+	top: 15px;
+	z-index: 1;
+	width: 80px;
+	height: 80px;
+	margin-left: -49px;
+	font-size: 14px;
+	line-height: 80px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	text-align: center;
+}
+.giftcard-buy-down.two-columns .giftcard-buy-article{
+	width: 718px;
+	float: right;
+	min-height: 802px;
+	border: 1px solid #ededed;
+} 
+.giftcard-buy-article .giftcard-buy-hd{
+	width: 718px;
+	height: 59px;
+	padding: 0 29px;
+	font-size: 16px;
+	line-height: 59px;
+	color: #666;
+	background-color: #f5f5f5;
+}
+.product-details-intro{
+	width: 718px;
+	overflow: hidden;
+	padding: 20px 29px;
+}
+.product-details-intro p{
+	line-height: 1.5;
+}
+.product-details-intro img{
+	width: 100%;
+	vertical-align: top;
+	border: 0;
+}
